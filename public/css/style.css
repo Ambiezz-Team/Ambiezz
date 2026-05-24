@@ -17,10 +17,39 @@ body {
     color: #334155;
     -webkit-font-smoothing: antialiased;
     animation: fadeInPage 0.5s ease;
+    position: relative;
 }
 
 body.fade-out {
     animation: fadeOutPage 0.35s ease forwards;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    background: rgba(139, 155, 180, 0.18);
+    filter: blur(120px);
+    top: 120px;
+    left: -120px;
+    z-index: -1;
+    pointer-events: none;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background: rgba(210, 218, 230, 0.28);
+    filter: blur(120px);
+    bottom: 60px;
+    right: -100px;
+    z-index: -1;
+    pointer-events: none;
 }
 
 .container {
@@ -29,6 +58,28 @@ body.fade-out {
     padding: 40px 80px;
     max-width: 1400px;
     margin: 0 auto;
+    position: relative;
+}
+
+.container::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    opacity: 0.03;
+    pointer-events: none;
+    z-index: -1;
+    background-image:
+        radial-gradient(
+            circle at 20% 20%,
+            rgba(255, 255, 255, 0.7) 1px,
+            transparent 1px
+        ),
+        radial-gradient(
+            circle at 80% 80%,
+            rgba(255, 255, 255, 0.6) 1px,
+            transparent 1px
+        );
+    background-size: 24px 24px;
 }
 
 /* PAGE ANIMATION */
@@ -64,7 +115,8 @@ body.fade-out {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #ffffff;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
     box-shadow: 0 10px 30px -10px rgba(139, 155, 180, 0.15);
     padding: 15px 30px;
     gap: 20px;
