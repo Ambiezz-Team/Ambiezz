@@ -103,7 +103,7 @@
         <div class="page-section">
 
             <h1>GALERI AMBIEZZ</h1>
-            <p>Kumpulan kenangan yang pernah kita abadikan bersama.</p>
+            <p></p>
 
             <div class="memory-board">
 
