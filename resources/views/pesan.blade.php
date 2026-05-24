@@ -41,7 +41,11 @@
             <div class="story-card">
                 <h2>Terima Kasih, Ambiezz</h2>
 
-                <p>
+                <p style="
+                    text-align: justify;
+                    text-justify: inter-word;
+                    line-height: 1.9;
+                ">
                     Terima kasih telah menjadi bagian dari cerita ini.
                     Sampai jumpa di tangga kesuksesan masing-masing!
                 </p>
