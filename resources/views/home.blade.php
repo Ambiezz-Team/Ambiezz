@@ -51,15 +51,11 @@
             <div class="hero-left">
 
                 <h1>
-                    Every Memory Has a Story
+                    Keep the memories alive
                 </h1>
 
                 <p>
-                    Dulu rasanya cuma hari-hari biasa.
-                    Ketawa di kelas, ngobrol ga jelas, pulang bareng,
-                    dan momen kecil yang ga pernah kita pikir bakal dirindukan.
-                    Sekarang semuanya jadi kenangan,
-                    dan Ambiezz akan selalu jadi bagian indah dari masa itu.
+                    Setiap foto punya cerita. Setiap kenangan punya tempat untuk kembali.
                 </p>
 
                 <div class="buttons">
