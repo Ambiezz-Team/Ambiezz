@@ -155,6 +155,18 @@
                     <img src="{{ asset('assets/ultah.jpg') }}" alt="">
                 </div>
 
+                <div class="photo-card rotate-right">
+                    <img src="{{ asset('assets/gacoan.jpg') }}" alt="">
+                </div>
+
+                <div class="photo-card rotate-right">
+                    <img src="{{ asset('assets/helm.jpg') }}" alt="">
+                </div>
+
+                <div class="photo-card rotate-right">
+                    <img src="{{ asset('assets/ntah.jpg') }}" alt="">
+                </div>
+
             </div>
 
         </div>
