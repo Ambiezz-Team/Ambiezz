@@ -37,59 +37,6 @@
         <div class="page-section">
 
             <h1>GALERI AMBIEZZ</h1>
-            <p>Pilih tema di bawah lalu unggah gambar sesuai nuansa cerita Ambiezz. Setiap bagian dapat menampilkan preview gambar sebelum disimpan.</p>
-
-            <div class="themes-grid">
-
-                <div class="theme-card">
-                    <h2>Persahabatan</h2>
-                    <p>Foto kebersamaan dan momen hangat bareng teman-teman Ambiezz.</p>
-                    <label class="upload-label">
-                        Pilih gambar tema Persahabatan
-                        <input type="file" class="theme-input" data-preview="preview-persahabatan" accept="image/*" multiple>
-                    </label>
-                    <div class="preview-grid" id="preview-persahabatan">
-                        <p class="no-images">Belum ada gambar dipilih.</p>
-                    </div>
-                </div>
-
-                <div class="theme-card">
-                    <h2>Acara & Kegiatan</h2>
-                    <p>Unggah foto dari acara, kunjungan, dan aktivitas kalian.</p>
-                    <label class="upload-label">
-                        Pilih gambar tema Acara & Kegiatan
-                        <input type="file" class="theme-input" data-preview="preview-acara" accept="image/*" multiple>
-                    </label>
-                    <div class="preview-grid" id="preview-acara">
-                        <p class="no-images">Belum ada gambar dipilih.</p>
-                    </div>
-                </div>
-
-                <div class="theme-card">
-                    <h2>Suasana Sekolah</h2>
-                    <p>Foto yang menunjukkan suasana kelas, kantin, atau jalan bareng.</p>
-                    <label class="upload-label">
-                        Pilih gambar tema Suasana Sekolah
-                        <input type="file" class="theme-input" data-preview="preview-sekolah" accept="image/*" multiple>
-                    </label>
-                    <div class="preview-grid" id="preview-sekolah">
-                        <p class="no-images">Belum ada gambar dipilih.</p>
-                    </div>
-                </div>
-
-                <div class="theme-card">
-                    <h2>Momen Spesial</h2>
-                    <p>Unggah momen ulang tahun, reuni, atau perpisahan yang berkesan.</p>
-                    <label class="upload-label">
-                        Pilih gambar tema Momen Spesial
-                        <input type="file" class="theme-input" data-preview="preview-spesial" accept="image/*" multiple>
-                    </label>
-                    <div class="preview-grid" id="preview-spesial">
-                        <p class="no-images">Belum ada gambar dipilih.</p>
-                    </div>
-                </div>
-
-            </div>
 
             <div class="gallery-grid">
 
@@ -111,8 +58,6 @@
         </div>
 
     </div>
-
-    <script src="{{ asset('js/gallery.js') }}"></script>
 
 </body>
 
