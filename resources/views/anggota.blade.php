@@ -90,7 +90,7 @@
                 <div class="member-card polaroid-style">
                     <div class="tape-top-small"></div>
                     <div class="polaroid-img">
-                        <img src="{{ asset('assets/anggota.jpg') }}" alt="Marcell Arief Nugraha">
+                        <img src="{{ asset('assets/marcell.jpg') }}" alt="Marcell Arief Nugraha">
                     </div>
                     <div class="polaroid-caption">
                         <h3>Marcell Arief Nugraha</h3>
