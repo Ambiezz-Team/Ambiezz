@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tentang</title>
+    <title>Tentang Ambiezz</title>
 
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Permanent+Marker&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="scrapbook-bg">
 
     <div class="container">
 
         <div class="navbar">
-
             <div class="logo">
                 <div class="logo-box">AM</div>
-
                 <div class="logo-text">
                     <h3>AMBIEZZ</h3>
                     <p>MEMORY</p>
@@ -26,41 +26,87 @@
 
             <div class="nav-center">
                 <a href="/">HOME</a>
-                <a href="/tentang">TENTANG</a>
+                <a href="/tentang" class="active">TENTANG</a>
                 <a href="/anggota">ANGGOTA</a>
                 <a href="/galeri">GALERI</a>
                 <a href="/pesan">PESAN</a>
             </div>
-
         </div>
 
         <div class="page-section">
 
-            <h1>TENTANG AMBIEZZ</h1>
+            <div class="section-header">
+                <div class="badge-nostalgia">📖 Kisah Tongkrongan</div>
+                <h1 class="marker-title">TENTANG AMBIEZZ</h1>
+                <p class="subtitle-text">Ambiezz bukan cuma nama tongkrongan, tapi tempat dimana semua cerita masa SMA pernah terasa paling hidup.</p>
+            </div>
 
-            <p style="
-                text-align: justify;
-                text-justify: inter-word;
-                line-height: 1.9;
-                max-width: 1500px;
-                margin: 0 auto;
-            ">
-                Ambiezz bukan cuma nama tongkrongan, tapi tempat dimana semua cerita masa SMA pernah terasa paling hidup.
+            <div class="about-layout">
 
-                Isinya manusia-manusia random dengan sifat anehnya masing-masing. Ada PANGLIMA IBNU BADMOOD yang kadang tiba-tiba berubah moodnya, PANGLIMA RAFI SEHAT yang paling hidup sehat, PANGLIMA KUKUH BULOL (BUCIN TOLOL) yang selalu punya cerita soal percintaan yang bikin semua orang geleng-geleng kepala, sampai PANGLIMA RAJA SUAMI TAKUT ISTRI yang kalau lagi sama Suci mendadak jadi paling nurut se Ambiezz.
+                <div class="about-story scrapbook-note">
+                    <div class="tape-top-left"></div>
+                    <h2>📜 Lembar Kenangan</h2>
+                    <p>Dulu semuanya terasa biasa aja. Ketawa tiap hari, spam chat ga jelas, saling ejek, saling kesel, tapi selalu balik ngobrol lagi besoknya.</p>
+                    <p>Sekarang waktu mulai bikin semuanya berubah. Kesibukan datang satu-satu, obrolan mulai ga serame dulu, dan kumpul lengkap jadi hal yang susah.</p>
+                    <p>Tapi entah kenapa, sejauh apa pun nanti kita pergi, nama Ambiezz rasanya bakal selalu jadi bagian paling hangat dari masa SMA.</p>
+                </div>
 
-                Belum lagi PANGLIMA SUCI JAJAN TERUS yang hidupnya ga jauh dari makanan, REVA CANTIKKKKK yang selalu dipuji, PANGLIMA WANDA HTS LV 100000 dengan kisahnya yang ga ada habisnya, dan PANGLIMA ROSI NGARET ABIS yang bikin semua orang udah hafal nungguin.
+                <div class="about-factions">
+                    <h3 class="faction-title">📌 Profil Para Panglima Random</h3>
 
-                Kadang grup rame karena bercanda ga jelas, kadang juga rame karena PANGLIMA SALSABILA LAGI BERANTEM yang kisah cintanya selalu penuh episode—berantem dulu, baikan lagi, berantem lagi—atau SUCI RAJA LAGI PACARAN yang jadi bahan gibahan satu tongkrongan.
+                    <div class="faction-grid">
+                        <div class="faction-item">
+                            <h4>Ibnu</h4>
+                            <p>Panglima Badmood yang moodnya suka berubah tiba-tiba.</p>
+                        </div>
+                        <div class="faction-item">
+                            <h4>Rafi</h4>
+                            <p>Panglima Sehat yang hidupnya paling terjaga.</p>
+                        </div>
+                        <div class="faction-item">
+                            <h4>Kukuh</h4>
+                            <p>Panglima Bulol dengan cerita cinta bikin geleng kepala.</p>
+                        </div>
+                        <div class="faction-item">
+                            <h4>Radja</h4>
+                            <p>Panglima Suami Takut Istri yang mendadak nurut kalau ada Suci.</p>
+                        </div>
+                        <div class="faction-item">
+                            <h4>Suci</h4>
+                            <p>Panglima Jajan Terus yang hidupnya tidak jauh dari makanan.</p>
+                        </div>
+                        <div class="faction-item">
+                            <h4>Reva</h4>
+                            <p>Si Cantikkkkk yang selalu jadi pusat pujian.</p>
+                        </div>
+                        <div class="faction-item">
+                            <h4>Wanda</h4>
+                            <p>Panglima HTS Level 100000 dengan kisah tanpa akhir.</p>
+                        </div>
+                        <div class="faction-item">
+                            <h4>Rosi</h4>
+                            <p>Panglima Ngaret Abis yang semua orang sudah hafal nunggunya.</p>
+                        </div>
+                        <div class="faction-item">
+                            <h4>Salsabila</h4>
+                            <p>Panglima Berantem dengan kisah cinta penuh episode.</p>
+                        </div>
+                        <div class="faction-item">
+                            <h4>Marcell</h4>
+                            <p>Panglima Sholeh yang rajin sholat 5 waktu.</p>
+                        </div>
+                        <div class="faction-item">
+                            <h4>Haditio</h4>
+                            <p>Panglima Galau yang sering sok kuat padahal kepikiran.</p>
+                        </div>
+                        <div class="faction-item">
+                            <h4>Dewa</h4>
+                            <p>Panglima Putus Terus karena masalah ga sefrekuensi.</p>
+                        </div>
+                    </div>
+                </div>
 
-                Ada juga PANGLIMA MARCELL SHOLEH RAJIN SHOLAT 5 WAKTU, PANGLIMA HADITIO GALAU yang sering sok kuat padahal kepikiran, dan PANGLIMA DEWA PUTUS TERUS KARNA GA SE FREKUENSI yang kisah cintanya udah kayak season drama sendiri.
-
-                Dulu semuanya terasa biasa aja. Ketawa tiap hari, spam chat ga jelas, saling ejek, saling kesel, tapi selalu balik ngobrol lagi besoknya.
-
-                Sekarang waktu mulai bikin semuanya berubah. Kesibukan datang satu-satu, obrolan mulai ga serame dulu, dan kumpul lengkap jadi hal yang susah.
-
-                Tapi entah kenapa, sejauh apa pun nanti kita pergi, nama Ambiezz rasanya bakal selalu jadi bagian paling hangat dari masa SMA.
-            </p>
+            </div>
 
         </div>
 
