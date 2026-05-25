@@ -47,7 +47,7 @@
                         📂 BUKA ALBUM FOTO
                     </a>
                     <a href="/anggota" class="btn-light">
-                        👥 DAFTAR KELAS
+                        👥 12 ORANG
                     </a>
                 </div>
             </div>
