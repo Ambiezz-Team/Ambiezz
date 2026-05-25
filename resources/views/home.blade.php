@@ -57,7 +57,7 @@
                     <div class="tape-top"></div>
                     <div class="main-card">
                         <img src="{{ asset('assets/lengkap.jpg') }}" alt="Foto Bersama">
-                        <div class="card-caption">Masa-Masa Indah 20XX ✨</div>
+                        <div class="card-caption">Masa-Masa Indah✨</div>
                     </div>
                 </div>
             </div>

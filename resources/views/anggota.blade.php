@@ -36,7 +36,7 @@
         <div class="page-section">
 
             <div class="section-header">
-                <div class="badge-nostalgia">👥 Buku Absen Kelas</div>
+                <div class="badge-nostalgia">👥 12</div>
                 <h1 class="marker-title">MEMBER AMBIEZZ</h1>
                 <p class="subtitle-text">Para manusia tangguh yang mengukir cerita bersama di masa abu-abu.</p>
             </div>

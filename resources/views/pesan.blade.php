@@ -58,7 +58,7 @@
 
                     <div class="note-footer">
                         <span>Salam Hangat,</span>
-                        <strong class="signature-text">Ambiezz Memory © 2026</strong>
+                        <strong class="signature-text">Ambiezz Forever</strong>
                     </div>
                 </div>
             </div>
