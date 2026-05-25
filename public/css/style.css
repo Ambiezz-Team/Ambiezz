@@ -676,69 +676,99 @@ body.scrapbook-bg {
 }
 
 /* ==========================================
-   LOADING SCREEN
+   SMOOTH LOADING SCREEN
 ========================================== */
 
 #loading-screen {
     position: fixed;
     inset: 0;
-    background: #1e2e22;
+    background: linear-gradient(180deg, #1e2e22 0%, #243629 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 99999;
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+
     transition:
-        opacity 0.8s ease,
-        visibility 0.8s ease;
+        opacity 1.4s ease,
+        transform 1.4s ease,
+        visibility 1.4s ease;
+
+    will-change: opacity, transform;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 #loading-screen.hide {
     opacity: 0;
+    transform: scale(1.04);
     visibility: hidden;
     pointer-events: none;
 }
 
 .loader-content {
     text-align: center;
+    animation: smoothFloat 2.8s ease-in-out infinite;
+    transform: translateZ(0);
 }
 
 .loader-content h1 {
     font-family: "Fredoka", sans-serif;
-    font-size: 64px;
+    font-size: 68px;
     font-weight: 600;
     color: #f9f5eb;
-    letter-spacing: 4px;
-    margin-bottom: 12px;
+    letter-spacing: 6px;
+    margin-bottom: 14px;
 }
 
 .loader-content p {
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 3px;
-    color: rgba(255, 255, 255, 0.65);
-    animation: blinkText 1.5s infinite;
+    color: rgba(255, 255, 255, 0.72);
+    animation: softBlink 2s ease-in-out infinite;
 }
 
-@keyframes blinkText {
+@keyframes softBlink {
     0% {
         opacity: 0.35;
     }
-
     50% {
         opacity: 1;
     }
-
     100% {
         opacity: 0.35;
     }
 }
 
+@keyframes smoothFloat {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 @media (max-width: 768px) {
     .loader-content h1 {
-        font-size: 42px;
+        font-size: 46px;
+        letter-spacing: 4px;
     }
 
     .loader-content p {
-        font-size: 12px;
+        font-size: 13px;
         letter-spacing: 2px;
+    }
+
+    #loading-screen {
+        transition:
+            opacity 1.6s ease,
+            transform 1.6s ease,
+            visibility 1.6s ease;
     }
 }

@@ -94,9 +94,9 @@
         window.addEventListener("load", function() {
             const loader = document.getElementById("loading-screen");
 
-            setTimeout(function() {
+            setTimeout(() => {
                 loader.classList.add("hide");
-            }, 1800);
+            }, 3000);
         });
     </script>
 
