@@ -68,7 +68,7 @@
                 <div class="member-card polaroid-style">
                     <div class="tape-top-small"></div>
                     <div class="polaroid-img">
-                        <img src="{{ asset('assets/noe.jpg') }}" alt="Ibnu Athatori Wibisono">
+                        <img src="{{ asset('assets/noe..jpg') }}" alt="Ibnu Athatori Wibisono">
                     </div>
                     <div class="polaroid-caption">
                         <h3>Ibnu Athatori Wibisono</h3>
