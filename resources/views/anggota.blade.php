@@ -68,7 +68,7 @@
                 <div class="member-card polaroid-style">
                     <div class="tape-top-small"></div>
                     <div class="polaroid-img">
-                        <img src="{{ asset('assets/anggota.jpg') }}" alt="Ibnu Athatori Wibisono">
+                        <img src="{{ asset('assets/noe.jpg') }}" alt="Ibnu Athatori Wibisono">
                     </div>
                     <div class="polaroid-caption">
                         <h3>Ibnu Athatori Wibisono</h3>
@@ -123,7 +123,7 @@
                 <div class="member-card polaroid-style">
                     <div class="tape-top-small"></div>
                     <div class="polaroid-img">
-                        <img src="{{ asset('assets/anggota.jpg') }}" alt="Rosi Febriani Permatasari">
+                        <img src="{{ asset('assets/oci.jpg') }}" alt="Rosi Febriani Permatasari">
                     </div>
                     <div class="polaroid-caption">
                         <h3>Rosi Febriani Permatasari</h3>
@@ -134,7 +134,7 @@
                 <div class="member-card polaroid-style">
                     <div class="tape-top-small"></div>
                     <div class="polaroid-img">
-                        <img src="{{ asset('assets/anggota.jpg') }}" alt="Suci Rahmadani">
+                        <img src="{{ asset('assets/uci.jpg') }}" alt="Suci Rahmadani">
                     </div>
                     <div class="polaroid-caption">
                         <h3>Suci Rahmadani</h3>
