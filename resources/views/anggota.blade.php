@@ -50,7 +50,7 @@
                     </div>
                     <div class="polaroid-caption">
                         <h3>Dewa Rangga Anarki</h3>
-                        <p class="student-id">Siswa 01 ✨</p>
+                        <p class="student-id"></p>
                     </div>
                 </div>
 
@@ -61,7 +61,7 @@
                     </div>
                     <div class="polaroid-caption">
                         <h3>Haditio Sri Ramadhan</h3>
-                        <p class="student-id">Siswa 02 ✨</p>
+                        <p class="student-id"></p>
                     </div>
                 </div>
 
@@ -72,7 +72,7 @@
                     </div>
                     <div class="polaroid-caption">
                         <h3>Ibnu Athatori Wibisono</h3>
-                        <p class="student-id">Siswa 03 ✨</p>
+                        <p class="student-id"></p>
                     </div>
                 </div>
 
@@ -83,7 +83,7 @@
                     </div>
                     <div class="polaroid-caption">
                         <h3>Kukuh Ganang Maulana</h3>
-                        <p class="student-id">Siswa 04 ✨</p>
+                        <p class="student-id"></p>
                     </div>
                 </div>
 
@@ -94,7 +94,7 @@
                     </div>
                     <div class="polaroid-caption">
                         <h3>Marcell Arief Nugraha</h3>
-                        <p class="student-id">Siswa 05 ✨</p>
+                        <p class="student-id"></p>
                     </div>
                 </div>
 
@@ -105,18 +105,18 @@
                     </div>
                     <div class="polaroid-caption">
                         <h3>Muhammad Rafi Anggara</h3>
-                        <p class="student-id">Siswa 06 ✨</p>
+                        <p class="student-id"></p>
                     </div>
                 </div>
 
                 <div class="member-card polaroid-style">
                     <div class="tape-top-small"></div>
                     <div class="polaroid-img">
-                        <img src="{{ asset('assets/anggota.jpg') }}" alt="Radja Aurel Rizky Putera">
+                        <img src="{{ asset('assets/rajahaha.jpg') }}" alt="Radja Aurel Rizky Putera">
                     </div>
                     <div class="polaroid-caption">
                         <h3>Radja Aurel Rizky Putera</h3>
-                        <p class="student-id">Siswa 07 ✨</p>
+                        <p class="student-id"></p>
                     </div>
                 </div>
 
@@ -127,7 +127,7 @@
                     </div>
                     <div class="polaroid-caption">
                         <h3>Rosi Febriani Permatasari</h3>
-                        <p class="student-id">Siswi 08 ✨</p>
+                        <p class="student-id"></p>
                     </div>
                 </div>
 
@@ -138,7 +138,7 @@
                     </div>
                     <div class="polaroid-caption">
                         <h3>Suci Rahmadani</h3>
-                        <p class="student-id">Siswi 09 ✨</p>
+                        <p class="student-id"></p>
                     </div>
                 </div>
 
@@ -149,18 +149,18 @@
                     </div>
                     <div class="polaroid-caption">
                         <h3>Wanda Lionita Leilmutasya</h3>
-                        <p class="student-id">Siswi 10 ✨</p>
+                        <p class="student-id"></p>
                     </div>
                 </div>
 
                 <div class="member-card polaroid-style">
                     <div class="tape-top-small"></div>
                     <div class="polaroid-img">
-                        <img src="{{ asset('assets/anggota.jpg') }}" alt="Reva Nayla Sandina">
+                        <img src="{{ asset('assets/rere.jpg') }}" alt="Reva Nayla Sandina">
                     </div>
                     <div class="polaroid-caption">
                         <h3>Reva Nayla Sandina</h3>
-                        <p class="student-id">Siswi 11 ✨</p>
+                        <p class="student-id"></p>
                     </div>
                 </div>
 
@@ -171,7 +171,7 @@
                     </div>
                     <div class="polaroid-caption">
                         <h3>Salsabila Permata Putri</h3>
-                        <p class="student-id">Siswi 12 ✨</p>
+                        <p class="student-id"></p>
                     </div>
                 </div>
 
