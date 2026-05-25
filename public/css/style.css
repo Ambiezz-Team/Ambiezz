@@ -674,3 +674,71 @@ body.scrapbook-bg {
         width: 30px;
     }
 }
+
+/* ==========================================
+   LOADING SCREEN
+========================================== */
+
+#loading-screen {
+    position: fixed;
+    inset: 0;
+    background: #1e2e22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    transition:
+        opacity 0.8s ease,
+        visibility 0.8s ease;
+}
+
+#loading-screen.hide {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.loader-content {
+    text-align: center;
+}
+
+.loader-content h1 {
+    font-family: "Fredoka", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    color: #f9f5eb;
+    letter-spacing: 4px;
+    margin-bottom: 12px;
+}
+
+.loader-content p {
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: rgba(255, 255, 255, 0.65);
+    animation: blinkText 1.5s infinite;
+}
+
+@keyframes blinkText {
+    0% {
+        opacity: 0.35;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.35;
+    }
+}
+
+@media (max-width: 768px) {
+    .loader-content h1 {
+        font-size: 42px;
+    }
+
+    .loader-content p {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+}

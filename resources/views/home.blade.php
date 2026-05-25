@@ -13,6 +13,14 @@
 
 <body class="scrapbook-bg">
 
+    <!-- LOADING SCREEN -->
+    <div id="loading-screen">
+        <div class="loader-content">
+            <h1>AMBIEZZ</h1>
+            <p>loading memories...</p>
+        </div>
+    </div>
+
     <div class="container">
 
         <div class="navbar">
@@ -37,9 +45,12 @@
 
             <div class="hero-left">
                 <div class="badge-nostalgia">✨ Memori Indah Masa SMA</div>
+
                 <h1>Keep the memories alive</h1>
+
                 <p>
-                    Setiap foto punya cerita. Setiap kenangan punya tempat untuk kembali.
+                    Setiap foto punya cerita.
+                    Setiap kenangan punya tempat untuk kembali.
                     Mari jelajahi kembali lembar demi lembar kisah klasik kita di sekolah.
                 </p>
 
@@ -47,16 +58,17 @@
                     <a href="/galeri" class="btn-dark">
                         📂 BUKA ALBUM FOTO
                     </a>
+
                     <a href="/anggota" class="btn-light">
                         👥 12 ORANG
                     </a>
                 </div>
-
             </div>
 
             <div class="hero-right">
                 <div class="scrapbook-frame">
                     <div class="tape-top"></div>
+
                     <div class="main-card">
                         <img src="{{ asset('assets/lengkap.jpg') }}" alt="Foto Bersama">
                         <div class="card-caption">Masa-Masa Indah✨</div>
@@ -77,6 +89,16 @@
         </div>
 
     </div>
+
+    <script>
+        window.addEventListener("load", function() {
+            const loader = document.getElementById("loading-screen");
+
+            setTimeout(function() {
+                loader.classList.add("hide");
+            }, 1800);
+        });
+    </script>
 
 </body>
 
