@@ -112,7 +112,7 @@
                 <div class="member-card polaroid-style">
                     <div class="tape-top-small"></div>
                     <div class="polaroid-img">
-                        <img src="{{ asset('assets/rajahaha.jpg') }}" alt="Radja Aurel Rizky Putera">
+                        <img src="{{ asset('assets/dja.jpg') }}" alt="Radja Aurel Rizky Putera">
                     </div>
                     <div class="polaroid-caption">
                         <h3>Radja Aurel Rizky Putera</h3>
