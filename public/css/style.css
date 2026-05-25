@@ -710,8 +710,8 @@ body.scrapbook-bg {
 
 .loader-content {
     text-align: center;
-    animation: smoothFloat 2.8s ease-in-out infinite;
     transform: translateZ(0);
+    will-change: transform;
 }
 
 .loader-content h1 {
@@ -721,6 +721,8 @@ body.scrapbook-bg {
     color: #f9f5eb;
     letter-spacing: 6px;
     margin-bottom: 14px;
+
+    animation: floatingSoft 3.8s ease-in-out infinite;
 }
 
 .loader-content p {
@@ -742,15 +744,17 @@ body.scrapbook-bg {
     }
 }
 
-@keyframes smoothFloat {
+@keyframes floatingSoft {
     0% {
-        transform: translateY(0);
+        transform: translateY(0px);
     }
+
     50% {
-        transform: translateY(-8px);
+        transform: translateY(-4px);
     }
+
     100% {
-        transform: translateY(0);
+        transform: translateY(0px);
     }
 }
 
