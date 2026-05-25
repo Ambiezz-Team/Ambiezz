@@ -148,6 +148,13 @@
                     </div>
                 </div>
 
+                <div class="photo-card polaroid-style rotate-left">
+                    <div class="tape-top-small"></div>
+                    <div class="polaroid-img">
+                        <img src="{{ asset('assets/dulu.jpg') }}" alt="Memori">
+                    </div>
+                </div>
+
             </div>
 
         </div>
