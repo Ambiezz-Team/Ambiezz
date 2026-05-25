@@ -597,3 +597,57 @@ body.scrapbook-bg {
         grid-template-columns: 1fr;
     }
 }
+
+/* ==========================================================================
+   FRIENDS MARQUEE - HOME
+   ========================================================================== */
+
+.friends-marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 55px;
+    padding: 14px 0;
+    position: relative;
+}
+
+.friends-marquee::before,
+.friends-marquee::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.friends-marquee::before {
+    left: 0;
+    background: linear-gradient(to right, var(--bg-chalkboard), transparent);
+}
+
+.friends-marquee::after {
+    right: 0;
+    background: linear-gradient(to left, var(--bg-chalkboard), transparent);
+}
+
+.friends-track {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marqueeMove 28s linear infinite;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+@keyframes marqueeMove {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}

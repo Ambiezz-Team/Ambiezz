@@ -39,7 +39,8 @@
                 <div class="badge-nostalgia">✨ Memori Indah Masa SMA</div>
                 <h1>Keep the memories alive</h1>
                 <p>
-                    Setiap foto punya cerita. Setiap kenangan punya tempat untuk kembali. Mari jelajahi kembali lembar demi lembar kisah klasik kita di sekolah.
+                    Setiap foto punya cerita. Setiap kenangan punya tempat untuk kembali.
+                    Mari jelajahi kembali lembar demi lembar kisah klasik kita di sekolah.
                 </p>
 
                 <div class="buttons">
@@ -50,6 +51,7 @@
                         👥 12 ORANG
                     </a>
                 </div>
+
             </div>
 
             <div class="hero-right">
@@ -62,6 +64,16 @@
                 </div>
             </div>
 
+        </div>
+
+        <!-- MARQUEE NAMA -->
+        <div class="friends-marquee">
+            <div class="friends-track">
+                Dewa • Haditio • Ibnu • Kukuh • Marcell • Rafi • Radja • Rosi •
+                Suci • Wanda • Reva • Salsabila •
+                Dewa • Haditio • Ibnu • Kukuh • Marcell • Rafi • Radja • Rosi •
+                Suci • Wanda • Reva • Salsabila •
+            </div>
         </div>
 
     </div>
