@@ -101,7 +101,7 @@
                 <div class="member-card polaroid-style">
                     <div class="tape-top-small"></div>
                     <div class="polaroid-img">
-                        <img src="{{ asset('assets/anggota.jpg') }}" alt="Muhammad Rafi Anggara">
+                        <img src="{{ asset('assets/baba.jpg') }}" alt="Muhammad Rafi Anggara">
                     </div>
                     <div class="polaroid-caption">
                         <h3>Muhammad Rafi Anggara</h3>
